@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+/*------Reg_Div------*/
+body {
+    background: #87509c;
+    font-family: 'Titillium Web', sans-serif;
+  }  
+.header {
+    justify-content: center;
+}
+.logo{
+    height: 100px;
+    text-align: center; 
+    font-style: italic; 
+    margin-bottom: 5px;
+}
+.reg_block { 
+    background: #643a79;
+    padding: 28px;
+    max-width: 600px;
+    margin: -15px auto;
+    border-radius: 3px;
+    box-shadow: 0 4px 10px 4px #41254f;
+}
+.text_r {
+    font-size: 57px;
+	font-weight: bolder;
+    text-align: center;
+	position: relative;
+    color: white;
+    margin-bottom: 20px;
+    font-family: 'Titillium Web', sans-serif;
+}
+/*------REG_FORM------*/
+.reg_menu {
+    font-family: 'Play', sans-serif;
+}
+.lpass {
+    font-weight: bolder;
+    text-align: center;
+}
+.border_form,textarea {
+    font-size: 20px;
+    background: none;
+    border: 1px solid #919292;
+}
