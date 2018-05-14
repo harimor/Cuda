@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Galada');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+/*------font------*/
+body {
+	margin: 0;
+	width: 100%;
+	font-family: 'Titillium Web', sans-serif;
+}
+.header {
+	position: relative;
+	top: 40px;
+}
+.head {
+	max-width: 1120px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.slogan {
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 1120px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 596px;
+}
+.text {
+	font-size: 45px;
+	font-weight: bolder;
+    text-align: center;
+    position: relative;
+}
+/*------animation------*/
+.menu_block>.butt {
+    display: inline-block;
+}
+.classic_b {   
+    font-weight:700;
+    font-size:3.3em; 
+    text-align:center;
+    transition:all 0.5s ease;
+    padding:20px;
+    background: #87509c;
+    color: white;
+    font-size: 20px;
+    padding: 5px 19px;
+    border: #87509c;
+    border-radius: 5px;
+    font-family: 'Titillium Web', sans-serif;
+}
+.classic_b:hover {
+    box-shadow: inset 0 0 0 23px #643a79;
+  }
+.butt {
+    font-weight:700;
+    background: #643a79;
+    color: white;
+    font-size: 20px;
+    padding: 5px 19px;
+    border: #643a79;
+    border-radius: 5px;
+    font-family: 'Titillium Web', sans-serif;
+}
+.butt_2 {
+    color: white;
+	background: #eb7d4b;
+	padding: 18px 64px;
+    border-bottom: 6px solid #c86a40;
+    border-radius: 4.3px;
+	margin-top: 28px;
+	font-size: 17px;
+    font-weight: 203px;
+    overflow:hidden;
+}
+/*------text_start------*/
+.logo {
+    margin-left: 16px;
+}
+/*------text_end------*/
+/*------paragraph_start------*/
+.par_1 {
+	background: #87509c;
+	height: 596px;
+	color: #fff;
+}
+.par_2 {
+	background: #17c2a4;
+	height: 747px;
+	color: #fff;
+}
+.row-3 {
+	background: #e7f1f8;
+	height: 914px;
+}
+.par_4 {
+	background: #fff;
+	height: 655px;
+}
+.par_5 {
+	background: #ffdd99;
+	height: 1423px;
+}
+.par_6 {
+	background: #d74680;
+	height: 894px;
+}
+.par_7 {
+	background: #3c5499;
+	height: 818px;
+}
+/*------paragraph_end------*/
