@@ -16,30 +16,52 @@ body {
 .reg_block { 
     background: #643a79;
     padding: 28px;
-    max-width: 600px;
+    max-width: 400px;
     margin: -15px auto;
     border-radius: 3px;
     box-shadow: 0 4px 10px 4px #41254f;
 }
-.text_r {
-    font-size: 57px;
-	font-weight: bolder;
-    text-align: center;
-	position: relative;
-    color: white;
-    margin-bottom: 20px;
-    font-family: 'Titillium Web', sans-serif;
-}
 /*------REG_FORM------*/
-.reg_menu {
-    font-family: 'Play', sans-serif;
+#login {
+	margin: 60px auto;
+	width: 400px;
+	text-align: center;
+	position: relative;
 }
-.lpass {
-    font-weight: bolder;
-    text-align: center;
+h1 {
+	color: white;
 }
-.border_form,textarea {
-    font-size: 20px;
-    background: none;
-    border: 1px solid #919292;
+form fieldset input[type="text"], input[type="password"] {
+	background: #e5e5e5;
+	border: none;
+	border-radius: 3px;
+	color: #643a79;
+	font-family: inherit;
+	font-size: 14px;
+	height: 50px;
+	outline: none;
+	padding: 0px 10px;
+	width: 280px;
+  -webkit-appearance:none;
 }
+
+form fieldset input[type="submit"] {
+	background-color: orange;
+	border: none;
+	border-radius: 10px;
+	color: #f4f4f4;
+	cursor: pointer;
+	font-family: inherit;
+	height: 40px;
+	text-transform: uppercase;
+	width: 300px;
+  -webkit-appearance:none;
+}
+
+form fieldset a {
+	color: #ffffff;
+	font-size: 10px;
+}
+
+form fieldset a:hover { text-decoration: underline; }
+    
