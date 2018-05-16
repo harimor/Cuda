@@ -74,9 +74,10 @@ body {
 }
 
 .action-button {
+	margin-top: 20px;
 	position: relative;
-	padding: 13px 44px;
-  	margin: 0px 10px 10px 0px;
+	padding: 14px 40px;
+	margin: 29px 10px 10px 0px;
   	float: left;
 	border-radius: 4.3px;
 	font-family: 'Titillium Web', sans-serif;
@@ -100,8 +101,26 @@ body {
 .logo {
     margin-left: 16px;
 }
-/*------text_end------*/
 /*------paragraph_start------*/
+.par_up {
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+	height: 200px;
+	font-size: 40px;
+}
+.par_ud {
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom: 4px solid #14a58c;
+	width: 87px;
+}
+/*------t_b------*/
 .par_1 {
 	background: #87509c;
 	height: 596px;
