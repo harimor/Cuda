@@ -110,6 +110,7 @@ body {
 	margin-right: auto;
 	height: 140px;
 	font-size: 40px;
+	font-weight: bolder;
 }
 .par_ud {
     display: flex;
@@ -133,7 +134,7 @@ body {
 	align-items: center;
 	font-size: 19px;
 }
-/*------img------*/
+/*------par_2------*/
 .info {
 	display: flex;
 	flex-direction: row;
@@ -141,7 +142,7 @@ body {
 	max-width: 1120px;
 	margin-left: auto;
 	margin-right: auto;
-	height: 575px;
+	height: 573px;
 }
 
 .info-img {
@@ -161,7 +162,97 @@ body {
 	padding: 41px;
 	text-align: center;
 }
+/*------par_3------*/
+.par_3_t {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+	height: 140px;
+	font-size: 40px;
+	font-weight: bolder;
+	color: #3d4861;
+}
+.par_3_ud {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom: 4px solid #c1cfda;
+	width: 87px;
+}
+.par_3_title {
+	display: flex;
+	margin-top: 0px;
+	justify-content: center;
+	align-items: center;
+	font-size: 19px;
+	color: #3d4861;
+}
+.par_3_title_2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 19px;
+	color: #3d4861;
+}
+/*------par_3_img------*/
+.info_3 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	max-width: 1190px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 600px;
+}
 
+.info_img_3 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.title_row_3 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #3d4861;
+}
+
+.info_row_3 {
+	font-size: 16px;
+	padding: 41px;
+	text-align: center;
+	color: #3d4861;
+}
+.title_row_blue {
+	color: #30bae7;
+	font-size: 19px;
+	margin-bottom: -25px;
+}
+/*------par_4_img------*/
+.info_4 {
+	display: flex;
+	justify-content:space-around;
+	width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 500px;
+}
+.par_4_t {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+	height: 150px;
+	font-size: 50px;
+	font-weight: bolder;
+	color: #3d4861;
+}
 /*------par_0------*/
 .par_1 {
 	background: #87509c;
@@ -170,12 +261,13 @@ body {
 }
 .par_2 {
 	background: #17c2a4;
-	height: 747px;
+	height: 798px;
 	color: #fff;
 }
-.row-3 {
+.par_3 {
 	background: #e7f1f8;
-	height: 914px;
+	height: 930px;
+	color: #fff;
 }
 .par_4 {
 	background: #fff;
