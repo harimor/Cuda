@@ -108,7 +108,7 @@ body {
 	align-items: center;
 	margin-left: auto;
 	margin-right: auto;
-	height: 200px;
+	height: 140px;
 	font-size: 40px;
 }
 .par_ud {
@@ -120,7 +120,49 @@ body {
 	border-bottom: 4px solid #14a58c;
 	width: 87px;
 }
-/*------t_b------*/
+.par_down {
+	display: flex;
+	margin-top: 20px;
+	justify-content: center;
+	align-items: center;
+	font-size: 19px;
+}
+.par_down_2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 19px;
+}
+/*------img------*/
+.info {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	max-width: 1120px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 575px;
+}
+
+.info-img {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.title-row {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.info-row {
+	font-size: 16px;
+	padding: 41px;
+	text-align: center;
+}
+
+/*------par_0------*/
 .par_1 {
 	background: #87509c;
 	height: 596px;
